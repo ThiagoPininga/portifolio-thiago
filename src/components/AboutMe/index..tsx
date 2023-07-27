@@ -12,7 +12,7 @@ export function AboutMe() {
           <br />
           <br />
 
-          Fui atraído pela tecnologia e pelo potencial transformador da programação desde muito jovem. Diariamente, o que me inspira e me motiva é encontrar maneiras criativas de resolver problemas digitais. O meu interesse em criar sites e aplicativos interativos e funcionais me levou an estudar linguagens como HTML, CSS, JavaScript e frameworks atuais.
+          Fui atraído pela tecnologia e pelo potencial transformador da programação desde muito jovem. Diariamente, o que me inspira e me motiva é encontrar maneiras criativas de resolver problemas digitais. O meu interesse em criar sites e aplicativos interativos e funcionais me levou na estudar linguagens como HTML, CSS, JavaScript e frameworks atuais.
 
 <br />
 <br />
@@ -20,7 +20,7 @@ Uma parte essencial de meu percurso é a busca constante de novos desafios e opo
 
 <br />
 <br />
-Meu objetivo é usar o conhecimento que aprendi na faculdade para ajudar as pessoas e a sociedade a fazer coisas boas. Estou confiante de que alcançarei grandes sucessos nessa trajetória como desenvolvedor web se me esforçar e me dedicar. Estou ansioso para oferecer meu entusiasmo e habilidades para projetos inovadores e estou aberto an oportunidades e parcerias.</p>
+Meu objetivo é usar o conhecimento que aprendi na faculdade para ajudar as pessoas e a sociedade a fazer coisas boas. Estou confiante de que alcançarei grandes sucessos nessa trajetória como desenvolvedor web se me esforçar e me dedicar. Estou ansioso para oferecer meu entusiasmo e habilidades para projetos inovadores e estou aberto a oportunidades e parcerias.</p>
       </div>
     </Container>
   )
