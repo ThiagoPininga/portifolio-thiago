@@ -45,8 +45,8 @@ export const Container = styled.div`
     margin: 0px;
 
     .projetos{
-      margin: 0 3%;
-      padding: 0 2%;
+      margin: 20px 3%;
+      padding: 15px 2%;
       width: 90%;
     }
   }
