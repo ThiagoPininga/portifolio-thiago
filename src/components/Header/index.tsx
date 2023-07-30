@@ -1,9 +1,7 @@
 import { Container } from "./styles";
 
-import { FaBars } from "react-icons/fa"
 import Logo from "../../assets/tp.png"
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
 import { Sidebar } from "../Sidebar";
 
 export function Header(){
