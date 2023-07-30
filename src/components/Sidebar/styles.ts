@@ -7,10 +7,7 @@ interface ContainerProps{
 export const Container = styled.div<ContainerProps>`
 
   nav{
-    /* display: none; */
     display: flex;
-
-    z-index: 98;
 
     width: 200px;
     height: 100vh;
