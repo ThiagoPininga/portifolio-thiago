@@ -36,8 +36,15 @@ export const Container = styled.div`
 
   @media (max-width: 1050px){
     .contact{
-      width: 80%;
-      margin: 0 10%;
+      width: 85%;
+      margin: 0 7.5%;
+
+      p{
+        font-size: 1.1rem
+      }
     }
+
+
+
   }
 `
