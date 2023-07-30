@@ -1,24 +1,38 @@
 import { NavLink } from "react-router-dom";
 import { Container } from "./styles";
 import { FaBars } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export function Sidebar() {
-
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(false);
+  const sidebarRef = useRef<HTMLDivElement>(null); 
 
   const toggleSidebar = () => {
-    setSidebar(!sidebar)
-  }
+    setSidebar(!sidebar);
+  };
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
+        setSidebar(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
-    <Container isActive={sidebar}>
+    <Container isActive={sidebar} ref={sidebarRef}>
       <button onClick={toggleSidebar}>
-        <FaBars></FaBars>
+        <FaBars />
       </button>
 
-      {sidebar &&
-        (<nav>
+      {sidebar && (
+        <nav>
           <ul>
             <li>
               <NavLink to="/">Inicio</NavLink>
@@ -36,9 +50,8 @@ export function Sidebar() {
               <NavLink to="contato">Contato</NavLink>
             </li>
           </ul>
-        </nav>)
-        }
-
+        </nav>
+      )}
     </Container>
-  )
+  );
 }
