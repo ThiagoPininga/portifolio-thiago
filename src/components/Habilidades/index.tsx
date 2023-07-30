@@ -16,7 +16,7 @@ export function HardSkills(){
         <img src={JS} alt="Logo do Javascript" />
       </div>
 
-      <div className="texto">
+      <div className="texto PHP">
         <img src={PHP} alt="Logo do PHP" />
         <div>
           <h3>PHP e MySQL:</h3>

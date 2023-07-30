@@ -26,11 +26,18 @@ export const Container = styled.div`
         color: black;
 
         transition: color .5s;
-        
+
         &:hover{
           color: ${({theme}) => theme.colors.gray700};
         }
       }
+    }
+  }
+
+  @media (max-width: 1050px){
+    .contact{
+      width: 80%;
+      margin: 0 10%;
     }
   }
 `

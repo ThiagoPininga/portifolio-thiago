@@ -13,6 +13,7 @@ export const Container = styled.section`
 
   .texto{
     display: flex;
+    align-items: center;
 
     margin-bottom: 2rem;
     font-weight: 550;
@@ -26,5 +27,24 @@ export const Container = styled.section`
       margin: 0 1rem;
       width: 300px;
     }
+  }
+
+  @media (max-width:900px) {
+    .texto{
+      flex-direction: column;
+      gap: 3rem;
+
+      margin-bottom: 3rem;
+
+      img{
+        width: 150px;
+      }
+    }
+
+    .PHP{
+      flex-direction: column-reverse;
+    }
+
+
   }
 `

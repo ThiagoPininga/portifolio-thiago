@@ -21,10 +21,16 @@ export const Container = styled.div`
     font-size: 1.2rem;
   }
 
-  @media(max-width: 700px) {
+  @media(max-width: 1050px) {
     .textoAM{
       font-size: 1rem;
     }
 
+    img{
+      width: 200px;
+    }
+
+    flex-direction: column;
+    gap: 3rem;
   }
 `
