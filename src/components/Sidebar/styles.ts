@@ -45,8 +45,8 @@ export const Container = styled.div<ContainerProps>`
       display: none;
 
       fill: ${({theme}) => theme.colors.black};
-      width: 2rem;
-      height: 2rem;
+      width: 1.5rem;
+      height: 1.5rem;
     }
 
   @media (max-width: 1050px) {

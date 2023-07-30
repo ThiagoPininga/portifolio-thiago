@@ -22,7 +22,10 @@ export const Container = styled.div`
   }
 
   @media(max-width: 1050px) {
+    padding: 0 3%;
+    
     .textoAM{
+      margin: 0;
       font-size: 1rem;
     }
 
