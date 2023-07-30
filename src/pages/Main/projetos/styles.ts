@@ -42,7 +42,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1050px){
-    margin
+    margin: 0px;
 
     .projetos{
       margin: 0 3%;
