@@ -34,6 +34,11 @@ export const Container = styled.div`
     }
   }
 
+  .curriculo{
+    margin: 5% 0;
+  }
+
+
   @media (max-width: 1050px){
     .contact{
       width: 85%;
@@ -44,7 +49,12 @@ export const Container = styled.div`
       }
     }
 
-
+    .curriculo{
+      img{
+        width: 98%;
+      }
+        margin: 5% 1%;
+    }
 
   }
 `
