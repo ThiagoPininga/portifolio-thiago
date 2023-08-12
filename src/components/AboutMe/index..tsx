@@ -8,19 +8,19 @@ export function AboutMe() {
       <img src={Foto} alt="" />
       <div className="textoAM">
         <h3>Sobre mim</h3>
-        <p>Olá, meu nome é Thiago Pininga e resido em Recife, Pernambuco, como um apaixonado desenvolvedor web completo. Ao estudar Ciência da Computação na Faculdade Uninassau, pretendo melhorar minhas habilidades e compreensão.
+        <p>Olá! Meu nome é Thiago Pininga, e sou um entusiasta desenvolvedor web full stack com sede em Recife, Pernambuco. Atualmente, estou embarcando na emocionante jornada acadêmica na Faculdade Uninassau, onde estou cursando Ciência da Computação para aprimorar ainda mais minhas habilidades e conhecimentos.
           <br />
           <br />
 
-          Fui atraído pela tecnologia e pelo potencial transformador da programação desde muito jovem. Diariamente, o que me inspira e me motiva é encontrar maneiras criativas de resolver problemas digitais. O meu interesse em criar sites e aplicativos interativos e funcionais me levou na estudar linguagens como HTML, CSS, JavaScript e frameworks atuais.
+Desde muito jovem, fui cativado pela tecnologia e pelo potencial transformador da programação. Encontrar soluções criativas para desafios digitais é o que me motiva e inspira diariamente. A paixão pela criação de sites interativos e aplicativos funcionais me levou a explorar linguagens como HTML, CSS, JavaScript e frameworks modernos.
 
 <br />
 <br />
-Uma parte essencial de meu percurso é a busca constante de novos desafios e oportunidades de aprendizado. Ainda não tenho experiência profissional, mas estou ansioso para lidar com problemas na vida real e mergulhar de cabeça no universo da tecnologia.
+A busca constante por aprendizado é uma parte fundamental do meu percurso, e estou sempre em busca de novas oportunidades para aprimorar meu conjunto de habilidades. Embora ainda não possua experiência profissional, estou ansioso para enfrentar desafios no mundo real e mergulhar de cabeça no universo da tecnologia.
 
 <br />
 <br />
-Meu objetivo é usar o conhecimento que aprendi na faculdade para ajudar as pessoas e a sociedade a fazer coisas boas. Estou confiante de que alcançarei grandes sucessos nessa trajetória como desenvolvedor web se me esforçar e me dedicar. Estou ansioso para oferecer meu entusiasmo e habilidades para projetos inovadores e estou aberto a oportunidades e parcerias.</p>
+Meu objetivo é aplicar o conhecimento adquirido na faculdade e, eventualmente, colaborar em projetos empolgantes que tragam um impacto positivo para as pessoas e a sociedade. Com determinação e dedicação, estou confiante de que alcançarei grandes conquistas nessa trajetória como desenvolvedor web. Estou aberto a oportunidades e parcerias, ansioso para contribuir com meu entusiasmo e habilidades para projetos inovadores. </p>
       </div>
     </Container>
   )

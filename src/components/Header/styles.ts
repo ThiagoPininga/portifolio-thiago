@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
 
+
+export const Container = styled.header`
+  header{
     width: 100%;
     height: 6rem;
     display: flex;
@@ -21,6 +23,12 @@ export const Container = styled.header`
 
     }
 
+    svg{
+        fill: ${({theme}) => theme.colors.black};
+        width: 1rem;
+        height: 1rem;
+      }
+
     img{
       width: 6rem;
       margin-left:20px ;
@@ -30,7 +38,9 @@ export const Container = styled.header`
       margin-right: 3rem;
     }
 
-
+    .menuHam{
+      display: none;
+    }
 
     ul{
       display: flex;
@@ -54,11 +64,6 @@ export const Container = styled.header`
           color: ${({theme}) => theme.colors.gray600};
         }
       }
-    }
-
-  @media (max-width: 1050px) {
-    nav{
-      display: none;
     }
   }
 `

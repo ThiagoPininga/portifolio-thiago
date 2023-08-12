@@ -21,19 +21,10 @@ export const Container = styled.div`
     font-size: 1.2rem;
   }
 
-  @media(max-width: 1050px) {
-    padding: 0 3%;
-    
+  @media(max-width: 700px) {
     .textoAM{
-      margin: 0;
       font-size: 1rem;
     }
 
-    img{
-      width: 200px;
-    }
-
-    flex-direction: column;
-    gap: 3rem;
   }
 `

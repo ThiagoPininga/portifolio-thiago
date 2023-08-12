@@ -11,7 +11,7 @@ export const Container = styled.div`
   .projetos{
     background-color: grey;
     padding: 10px;
-    margin: 3rem;
+    margin:3rem;
     box-shadow: 0px 15px 30px rgba(000,000,000,.7);
 
     border-radius: 20px;
@@ -38,16 +38,6 @@ export const Container = styled.div`
       a{
         color: black;
       }
-    }
-  }
-
-  @media (max-width: 1050px){
-    margin: 0px;
-
-    .projetos{
-      margin: 20px 3%;
-      padding: 15px 2%;
-      width: 90%;
     }
   }
 `
