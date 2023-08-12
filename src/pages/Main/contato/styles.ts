@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   .curriculo{
-    margin: 5% 0;
+    margin: 3% 0;
   }
 
 
