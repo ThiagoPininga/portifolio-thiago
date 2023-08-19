@@ -8,7 +8,7 @@ export function AboutMe() {
       <img src={Foto} alt="" />
       <div className="textoAM">
         <h3>Sobre mim</h3>
-        <p>Olá, meu nome é Thiago Pininga e resido em Recife, Pernambuco, como um apaixonado desenvolvedor web completo. Ao estudar Ciência da Computação na Faculdade Uninassau, pretendo melhorar minhas habilidades e compreensão.
+        <p>Olá, meu nome é Thiago Pininga e resido em Recife, Pernambuco, como um apaixonado desenvolvedor full stack. Ao estudar Ciência da Computação na Faculdade Uninassau, pretendo melhorar minhas habilidades e compreensão.
           <br />
           <br />
 
