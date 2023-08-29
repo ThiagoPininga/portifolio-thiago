@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
+    .active{
+      text-decoration: underline;
+    }
 
     width: 100%;
     height: 6rem;

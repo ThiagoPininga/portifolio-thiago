@@ -1,15 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 0 10%;
 
-  h1{
-    text-align: center;
-    margin: 5rem 0;
-  }
-
-  .projetos{
-    background-color: grey;
+background-color: grey;
     padding: 10px;
     margin: 3rem;
     box-shadow: 0px 15px 30px rgba(000,000,000,.7);
@@ -39,20 +32,10 @@ export const Container = styled.div`
         color: black;
       }
     }
-  }
-
-  .description-with-line-breaks {
-    white-space: pre-line;
-  }
-
 
   @media (max-width: 1050px){
-    margin: 0px;
-
-    .projetos{
-      margin: 20px 3%;
-      padding: 15px 2%;
-      width: 90%;
-    }
+    margin: 20px 3%;
+    padding: 15px 2%;
+    width: 90%;
   }
 `
