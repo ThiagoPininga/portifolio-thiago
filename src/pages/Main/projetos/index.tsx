@@ -25,9 +25,9 @@ const projetos = [
     descricao: "Esse é o meu projeto de sistema de gestão de clientes e estoque para uma pequena empresa. Desenvolvi uma plataforma eficiente que oferece uma visão clara e organizada dos clientes, suas compras, status de pagamento e preferências. \n \nNo módulo de clientes, é possível visualizar uma lista completa dos clientes, incluindo seus nomes, valores totais de compras e o status de pagamento de cada transação. A atualização do estoque e tipos de itens é simplificada através de uma interface intuitiva, permitindo o gerenciamento contínuo dos produtos disponíveis.\n \n    A cereja do bolo é o formulário de cadastro de compras, onde os detalhes do cliente são registrados junto com informações sobre a compra, como tamanho da camisa e quantidade. Além disso, o sistema oferece a opção de indicar se o pagamento está pendente ou concluído, garantindo um controle eficaz das transações."
   },
   {
-    titulo: "DearBane - HTML | CSS | Javascript",
+    titulo: "DeerBane - HTML | CSS | Javascript",
     img: DearBane,
-    descricao: "Mostro aqui a minha criação de tela de login e registro, desenvolvida como um exercício para aprimorar minhas habilidades em HTML, CSS e JavaScript. Este design moderno e amigável oferece uma experiência de usuário envolvente, com campos de entrada elegantes e transições suaves. Uma abordagem única para a criação de contas e acesso seguro. "
+    descricao: "Mostro aqui a minha criação de tela de login e registro, desenvolvida como um exercício para aprimorar minhas habilidades em HTML, CSS e JavaScript. Este design moderno e amigável oferece uma experiência de usuário envolvente, com campos de entrada elegantes e transições suaves. Uma abordagem única para a criação de contas e login. "
   }
 
 ]
