@@ -4,6 +4,8 @@ import ToDo from "../../../assets/ToDoIndex.png"
 import Harpoa from "../../../assets/FormHarpoa.png"
 import DearBane from "../../../assets/DeerBaneLogin.png"
 import FoodCommerce from "../../../assets/FoodCommerce.png"
+import Austria from "../../../assets/Austria.png"
+
 
 import { Projetos } from "../../../components/Projetos";
 
@@ -28,6 +30,11 @@ const projetos = [
     titulo: "DeerBane - HTML | CSS | Javascript",
     img: DearBane,
     descricao: "Mostro aqui a minha criação de tela de login e registro, desenvolvida como um exercício para aprimorar minhas habilidades em HTML, CSS e JavaScript. Este design moderno e amigável oferece uma experiência de usuário envolvente, com campos de entrada elegantes e transições suaves. Uma abordagem única para a criação de contas e login. "
+  },{
+    titulo: "Portifolio 3D - Blender",
+    img: Austria,
+    descricao: "Aqui eu irei mostrar o mue portifólio 3D desenvolvido no Blender, onde a minha paixão pelo 3D pode ser mostrada. Veja o projeto de cima e diversos outros que eu desenvolvi.",
+    adicional: "https://www.artstation.com/artwork/LRJ0kK"
   }
 
 ]
