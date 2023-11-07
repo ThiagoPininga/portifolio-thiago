@@ -15,7 +15,7 @@ export function AboutMe() {
 
 <br />
 <br />
-"Durante minha jornada, estou constantemente em busca de novos desafios e oportunidades de aprendizado. Atualmente, sou estagiário na Compass UOL, onde atuo como engenheiro de dados AWS, onde tenho aprendido muito no pouco tempo que estou.
+Durante minha jornada, estou constantemente em busca de novos desafios e oportunidades de aprendizado. Atualmente, sou estagiário na Compass UOL, onde atuo como engenheiro de dados AWS, onde tenho aprendido muito no pouco tempo que estou.
 <br />
 <br />
 Meu objetivo é usar o conhecimento que aprendi com a programação para ajudar o máximo de pessoas que eu conseguir. Estou confiante de que alcançarei grandes sucessos nessa trajetória com a tecnologia se me esforçar e me dedicar. Estou ansioso para oferecer meu entusiasmo e habilidades para projetos inovadores e estou aberto a oportunidades e parcerias.</p>
