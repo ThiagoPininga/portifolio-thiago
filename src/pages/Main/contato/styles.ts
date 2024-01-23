@@ -8,11 +8,11 @@ export const Container = styled.div`
     display: flex;
     width: 50%;
     flex-direction: column;
-    border-radius: 20%;
+    border-radius: 6px;
     align-self: start;
 
-    margin: 0 25%;
-    padding: 10% 0;
+    margin: 5% 25%;
+    padding: 5% 0;
 
     gap: 2rem;
 
@@ -34,15 +34,11 @@ export const Container = styled.div`
     }
   }
 
-  .curriculo{
-    margin: 3% 0;
-  }
-
-
   @media (max-width: 1050px){
     .contact{
       width: 85%;
       margin: 0 7.5%;
+      border-radius: 6px;
 
       p{
         font-size: 1.1rem
