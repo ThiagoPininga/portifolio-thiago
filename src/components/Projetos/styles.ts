@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-background-color: grey;
+    background-color: grey;
     padding: 10px;
     margin: 3rem;
     box-shadow: 0px 15px 30px rgba(000,000,000,.7);
@@ -30,6 +30,11 @@ background-color: grey;
 
       a{
         color: black;
+        transition: all .4s ease-in-out;
+        
+        &:hover{
+          color:white;
+        }
       }
     }
 
